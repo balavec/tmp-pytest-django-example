@@ -1,5 +1,6 @@
 ```
 % pip install -r requirements.txt
+% pip install -e .
 % py.test -n2 --tb=line 
 =========================================================================================== test session starts ============================================================================================
 platform darwin -- Python 2.7.6 -- py-1.4.20 -- pytest-2.5.2 -- /Users/l0ki/.virtualenvs/tmp-da9126efef704fb7/bin/python
