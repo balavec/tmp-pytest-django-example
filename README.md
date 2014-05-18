@@ -5,7 +5,7 @@
 % pip install -r requirements.txt
 % pip install -e .
 % py.test -n2 --tb=line 
-=========================================================================================== test session starts ============================================================================================
+============ test session starts ============ 
 platform darwin -- Python 2.7.6 -- py-1.4.20 -- pytest-2.5.2 -- /Users/l0ki/.virtualenvs/tmp-da9126efef704fb7/bin/python
 plugins: django, xdist
 [gw0] darwin Python 2.7.6 cwd: /Users/l0ki/dev/python/playground/pytest-django-bugs
@@ -24,14 +24,14 @@ tests/test_functions.py:6: test_func_one
 tests/test_functions.py:10: test_func_two
 [gw0] ERROR tests/test_functions.py:10: test_func_two
 
-================================================================================================== ERRORS ==================================================================================================
-_____________________________________________________________________________________ ERROR at setup of test_func_one ______________________________________________________________________________________
+============  ERRORS ============ 
+____________ ERROR at setup of test_func_one ____________
 [gw0] darwin -- Python 2.7.6 /Users/l0ki/.virtualenvs/tmp-da9126efef704fb7/bin/python
 E   Failed: Database access not allowed, use the "django_db" mark to enable
-_____________________________________________________________________________________ ERROR at setup of test_func_two ______________________________________________________________________________________
+____________ ERROR at setup of test_func_two ____________
 [gw0] darwin -- Python 2.7.6 /Users/l0ki/.virtualenvs/tmp-da9126efef704fb7/bin/python
 E   Failed: Database access not allowed, use the "django_db" mark to enable
-==================================================================================== 2 passed, 2 error in 1.09 seconds =====================================================================================
+============   2 passed, 2 error in 1.09 seconds ============  
 (tmp-da9126efef704fb7)(master) [1] %
 
 ```
