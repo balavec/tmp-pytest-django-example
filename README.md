@@ -1,7 +1,7 @@
 ```
 % git clone https://github.com/l0kix2/tmp-pytest-django-example.git
 % cd tmp-pytest-django-example
-% mkvirtualenv venv
+% mktmpenv
 % pip install -r requirements.txt
 % pip install -e .
 % py.test -n2 --tb=line 
